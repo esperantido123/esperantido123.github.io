@@ -1,4 +1,3 @@
-
 body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     margin: 0;
@@ -9,12 +8,7 @@ main {
     font-size: 20px;
     max-width: 900px;
     margin: auto;
-    padding: 5px;
-}
-
-.reguloj-kun-ekzemploj {
-    margin-left: 15px;
-    margin-right: 15px;
+    padding: 10px;
 }
 
 .regulo {
@@ -26,18 +20,13 @@ main {
 .ekzemplo {
     color: #a77006;
     border: 1px dotted #ccc;
-    padding: 10px;
+    padding: 5px;
     margin-top: 5px;
     margin-bottom: 5px;
 }
 
 .ekzemploparto {
     color: #a77006;
-}
-
-.rimarko {
-    font-size: 16px !important;
-    font-style: italic;
 }
 
 .bar {
