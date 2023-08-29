@@ -51,7 +51,17 @@ h1 {
     font-weight: bold;
 }
 
-a {
+a, .montri-pli {
     color: #337ab7;
     text-decoration: none;
+    cursor: pointer;
+}
+
+td {
+    border-top: 1px solid #ddd;
+    width: 100px;
+}
+
+.tabelo-vortordo {
+    margin: auto;
 }
