@@ -72,6 +72,13 @@ body {
     padding-right: 1px;
 }
 
+.maloftaĵo {
+    border: 1px solid orange;
+    border-radius: 3px;
+    padding-left: 1px;
+    padding-right: 1px;
+}
+
 .granda-ŝanĝo {
     background-color: yellow;
 }
@@ -96,21 +103,39 @@ body {
 <body>
 
 <h1>La bona lingvo</h1>
-<div style="text-align: center;">
-    <img src="/bildoj/La_bona_lingvo.jpg" />
-</div>
 <div class="traduko-paro">
     <div class="eo-123" lang="eo-123">
-        <p>Tradukita por esplori Esperantido 123.</p>
-        <span class="subjekto">subjekto</span><br/>
-        <span class="predikato">verbo(j)</span><br/>
-        <span class="antaŭ-objekto">infinitivo, E-participo aŭ alia vorto(j) antaŭ objekto</span><br/>
-        <span class="granda-ŝanĝo">granda ŝanĝo</span><br/>
-        <span class="malfacila">malfacila</span><br/>
-        <p>Vidu <a href="/">esperantido123.github.com</a>.</p>
+        <p>
+            Tradukita por esplori Esperantido 123, kiu uzas vortordoj:
+        </p>
+        <p>
+            <ul>
+                <li><span class="subjekto">subjekto</span> <span class="predikato">verbo</span> objekto</li>
+                <li>objekto <span class="subjekto">subjekto</span> <span class="predikato">verbo</span></li>
+                <li><span class="predikato">verbo</span> objekto <span class="subjekto">subjekto</span></li>
+                <hr/>
+                <li><span class="subjekto">subjekto</span> <span class="predikato">verbo</span>  <span class="antaŭ-objekto">infinitivo</span> objekto</li>
+                <li>objekto <span class="subjekto">subjekto</span> <span class="predikato">verbo</span> <span class="antaŭ-objekto">infinitivo</span></li>
+                <li><span class="predikato">verbo</span> <span class="antaŭ-objekto">infinitivo</span> objekto <span class="subjekto">subjekto</span></li>
+                <hr/>
+                <li><span class="antaŭ-objekto">E-participo</span> objekto</li>
+                <li><span class="antaŭ-objekto">imperativo</span> objekto</li>
+                <li><span class="antaŭ-objekto">infinitivo</span> objekto</li>
+                <hr />
+                <li><span class="maloftaĵo">objekto infinitivo</span></li>
+                <li><span class="maloftaĵo">objekto netransitiva verbo infinitivo</span></li>
+
+            </ul>
+
+            <span class="granda-ŝanĝo">granda ŝanĝo</span><br/>
+            <span class="malfacila">malfacila</span><br/>
+        </p>
+        <p>
+            Vidu <a href="/">esperantido123.github.com</a>.
+        </p>
     </div>
     <div class="eo" lang="eo">
-        <p>Claude Piron</p>
+        <img src="/bildoj/La_bona_lingvo.jpg" /> Claude Piron
         
         <p>HTML-eldono kreita laŭ la libroformaj eldonoj
             <ul>
@@ -174,7 +199,7 @@ body {
             Bona kiel <i>bona muziko</i>: orelplaĉa, melodia, ĝojdona per la simpla harmonio de siaj sonoj. 
             Bona, kiel oni parolas pri <i>bona ŝerco</i>: trafa <span class="subjekto">mi</span> <span class="predikato">trovas</span> ĝi, kapabla bele kaj laŭcele tuŝi. 
             Bona, kiel <i>bona okazo</i>.
-            <span class="subjekto">Vi</span> <span class="predikato">sopiris havi</span> libro elĉerpita, kaj jen hazarde en brokanta librejo 
+            <span class="subjekto">Vi</span> <span class="predikato">sopiris</span> <span class="antaŭ-objekto">havi</span> libro elĉerpita, kaj jen hazarde en brokanta librejo 
             <span class="subjekto">vi</span> <span class="predikato">trovas</span> ĝi. Ne perfekta: iom makulita, kaj kun unu aŭ du paĝoj ete 
             ŝiritaj. Sed ĝi malmulte kostas, kaj <span class="subjekto">vi</span> <span class="predikato">akceptas</span> ĝi kiel trezoro. 
             Simile, oni povas <span class="granda-ŝanĝo"><span class="antaŭ-objekto">senti</span> esperanto kiel trezoro</span>: ne perfekta, tute certe, sed
@@ -239,7 +264,7 @@ body {
             Precize <span class="subjekto">la rigora senco de la finaĵoj</span> <span class="predikato">liberigas</span> la koro kaj la menso,
             <span class="predikato">stimulas</span> kreemo fekunde. Tial <span class="subjekto">spontaneco</span> <span class="predikato">trovas</span> en ĝi ebloj plene 
             disvolviĝi, <span class="subjekto">kiuj</span> ne <span class="predikato">havas</span> similo alilingve. <span class="subjekto">Kiu</span> <span class="predikato">scias</span> tiel bele 
-            <span class="predikato">akordigi</span> rigoro kun libereco, penso kun sento, tiu estas psike 
+            <span class="antaŭ-objekto">akordigi</span> rigoro kun libereco, penso kun sento, tiu estas psike 
             enviinde sana.</p>    
         </div>
     <div class="eo" lang="eo">
@@ -311,10 +336,10 @@ body {
     <div class="eo-123" lang="eo-123">
         <p>
             Pri tiu <i>bona</i> lingvo – en la diversaj sencoj de la vorto – <span class="subjekto">mi</span> 
-            <span class="predikato">ŝatus dividi</span> kun vi la fruktoj de mia meditado. Sed, kiam mi traktos 
+            <span class="predikato">ŝatus</span> <span class="antaŭ-objekto">dividi</span> kun vi la fruktoj de mia meditado. Sed, kiam mi traktos 
             pri punktoj, pri kiuj homoj disopinias, bone konsciu, ke <span class="subjekto">mi</span> <span class="predikato">esprimos</span> nur
             mia sento, aŭ la konkludo de mia pripensado, ne “vero”, kiu <span class="subjekto">mi</span> 
-            <span class="predikato">volus trudi</span>, timante, ke, se <span class="subjekto">oni</span> ne <span class="predikato">respektos</span> ĝi, esperanto disfalos.
+            <span class="predikato">volus</span> <span class="antaŭ-objekto">trudi</span>, timante, ke, se <span class="subjekto">oni</span> ne <span class="predikato">respektos</span> ĝi, esperanto disfalos.
         </p>    
     </div>
     <div class="eo" lang="eo">
@@ -398,7 +423,7 @@ body {
             kiuj <span class="subjekto">mi</span> <span class="predikato">publikigis</span>. Tio <span class="subjekto">mi</span> des pli volonte <span class="predikato">faros</span>, ĉar <span class="subjekto">mi</span> <span class="predikato">ricevas</span>, 
             letere aŭ parole, multaj demandoj pri tiu aŭ alia punkto, kaj ofte mi 
             pensis, ke estas bedaŭrinde ne <span class="antaŭ-objekto">publikigi</span> la respondoj, ĉar, kiel ajn 
-            subjektivaj ili estas, <span class="subjekto">ili</span> <span class="predikato">povas interesi</span> pli ol unuopulo.
+            subjektivaj ili estas, <span class="subjekto">ili</span> <span class="predikato">povas</span> <span class="antaŭ-objekto">interesi</span> pli ol unuopulo.
         </p>
     </div>
     <div class="eo" lang="eo">
@@ -423,10 +448,10 @@ body {
             lingvo estas tiel intime ligita al la kerno de nia konscio pri ni mem 
             kaj pri nia identeco, samkiel al la prarilatoj kun tiuj, kiuj instruis 
             al ni paroli (plej ofte la patrino), ke nia <span class="granda-ŝanĝo">si-teno</span> pri ĝi estas multe 
-            pli ol intelekta starpunkto, eĉ se tio <span class="subjekto">ni</span> ne <span class="predikato">povas vidi</span> mem: ĝi estas 
+            pli ol intelekta starpunkto, eĉ se tio <span class="subjekto">ni</span> ne <span class="predikato">povas</span> <span class="antaŭ-objekto">vidi</span> mem: ĝi estas 
             interplektita kun primitivaj sentoj kaj emocioj kuŝantaj tre profunde en
             ni, kiuj sen nia scio enmiksiĝas tuj ĉe mencio de lingvo. Tial <span class="subjekto">diskuto 
-            pri lingva punkto</span> <span class="predikato">emas eksciti</span> ni pli ol la situacio pravigus.
+            pri lingva punkto</span> <span class="predikato">emas</span> <span class="antaŭ-objekto">eksciti</span> ni pli ol la situacio pravigus.
         </p>
     </div>
     <div class="eo" lang="eo">
@@ -450,12 +475,12 @@ body {
     <div class="eo-123" lang="eo-123">
         <p>
             Objektivi mi do provos, sed kun plena konscio, ke, plej probable, ne 
-            prosperos al mi. Por ke <span class="subjekto">vi</span> <span class="predikato">povu rigardi</span> miaj konsideroj kun kiel eble 
+            prosperos al mi. Por ke <span class="subjekto">vi</span> <span class="predikato">povu</span> <span class="antaŭ-objekto">rigardi</span> miaj konsideroj kun kiel eble 
             plej granda distanco – t.e. por ke vi povu juĝi, kio <span class="subjekto">mi</span> ĉi-sube <span class="predikato">diros</span>, 
             restante kiel eble plej libera, plej neinfluata de mi – <span class="subjekto">mi</span> tuj <span class="predikato">klarigos</span> 
             la fontoj de mia prilingva subjektiveco. Pli bone komprenante, kiel kaj
             kial mi alvenis al mia nuna vidpunkto, vi povos pli ĝuste taksi, kiom 
-            ĝi validas via-kaze. Mi esperas, ke <span class="subjekto">vi</span> <span class="predikato">bonvolos</span> afable <span class="predikato">pardoni</span> tia 
+            ĝi validas via-kaze. Mi esperas, ke <span class="subjekto">vi</span> <span class="predikato">bonvolos</span> afable <span class="antaŭ-objekto">pardoni</span> tia 
             <span class="granda-ŝanĝo">si-prezento</span>: ĝi ŝajnas al mi necesa, por ke ĉio estu klara inter ni. Se
             <span class="subjekto">tiu historio</span> ne <span class="predikato">interesas</span> vi, transiru tuj al la dua ĉapitro.
         </p>
@@ -529,7 +554,7 @@ body {
 <div class="traduko-paro">
     <div class="eo-123" lang="eo-123">
         <p>
-            Dum du jaroj <span class="subjekto">mi</span> <span class="predikato">provis trovi</span> maniero <span class="antaŭ-objekto">lerni</span> la mirakla lingvo, sed vane. <span class="subjekto">Mi</span> <span class="predikato">trovis</span> en la granda franca vortaro <i>Larousse</i>
+            Dum du jaroj <span class="subjekto">mi</span> <span class="predikato">provis</span> <span class="antaŭ-objekto">trovi</span> maniero <span class="antaŭ-objekto">lerni</span> la mirakla lingvo, sed vane. <span class="subjekto">Mi</span> <span class="predikato">trovis</span> en la granda franca vortaro <i>Larousse</i>
             mallonga klarigo indikanta la funkcio de ĉiu finaĵo, kaj per ĝi <span class="subjekto">mi</span> 
             <span class="predikato">analizis</span> mia Gevaert-dokumento, pli kaj pli admire, sed ankaŭ pli kaj 
             pli malĝoja pri la nepovo lerni plu. <span class="subjekto">Unu el miaj onkloj</span> estis siatempe 
@@ -589,8 +614,8 @@ body {
             devis peni multe por <span class="antaŭ-objekto">trovi</span> solvo al ĉiuj esprimproblemoj. <span class="subjekto">Mi</span> bedaŭrinde
             ne <span class="predikato">memoras</span> veraj ekzemploj, sed la sistemo estis jena: se <span class="subjekto">mi</span> <span class="predikato">bezonis</span> 
             vorto por la koncepto “imagu al vi” kaj tiu ne troviĝis en mia 
-            vortprovizo, neniam mi pensus, ke <span class="subjekto">mi</span> <span class="predikato">povus enkonduki</span> nova radiko, <span class="subjekto">mi</span> 
-            <span class="predikato">provis esprimi</span> la ideo per la haveblaj elementoj. Mi do diris, 
+            vortprovizo, neniam mi pensus, ke <span class="subjekto">mi</span> <span class="predikato">povus</span> <span class="antaŭ-objekto">enkonduki</span> nova radiko, <span class="subjekto">mi</span> 
+            <span class="predikato">provis</span> <span class="antaŭ-objekto">esprimi</span> la ideo per la haveblaj elementoj. Mi do diris, 
             ekzemple, <i>bildigu al vi</i> aŭ <i>prezentu al vi</i>. Se mankis la vorto “traduki”, <span class="subjekto">mi</span> diris <i>translingvigi</i> aŭ <i>alilingvigi</i> aŭ <span class="predikato">uzis</span> formo kiel <i>esperantigi</i>, <i>elangligi</i>,
             k.s. Fakte, kiel dirite, la du menciitaj radikoj troviĝis en mia 
             vortareto, sed <span class="subjekto">mi</span> tamen <span class="predikato">uzis</span> ankaŭ la sinonimoj, kiuj <span class="subjekto">mi</span> <span class="predikato">elpensis</span>, ĉar
@@ -683,8 +708,8 @@ body {
 <div class="traduko-paro">
     <div class="eo-123" lang="eo-123">
         <p>
-            Kaj jen, kiam mi estis 15-jara, sekve al du hazardoj, <span class="granda-ŝanĝo">kies <span class="antaŭ-objekto">detaligo</span></span> 
-            estus tro tede, <span class="subjekto">mi</span> <span class="predikato">ekkonis</span> la esperanto-movado. Mi estis ege ĝoja 
+            Kaj jen, kiam mi estis 15-jara, sekve al du hazardoj, <span class="maloftaĵo">kiuj detaligi</span>
+            estus tro teda, <span class="subjekto">mi</span> <span class="predikato">ekkonis</span> la esperanto-movado. Mi estis ege ĝoja 
             ekscii, ke mia <span class="granda-ŝanĝo">fratiĉo</span> kaj mi ne estas soluloj, ke ankaŭ <span class="subjekto">aliaj homoj</span>
             <span class="predikato">admiras</span> la zamenhofa mirindaĵo, kaj aktive <span class="predikato">uzas</span> ĝi. Ve! La unua 
             renkonto estis katastrofa. Mi defalis de plej alte. El la vundo (la <i>traŭmo</i>,
@@ -816,8 +841,8 @@ body {
 <div class="traduko-paro">
     <div class="eo-123" lang="eo-123">
         <p>
-            Al tiu historio <span class="subjekto">mi</span> <span class="predikato">devas aldoni</span> tri faktoj por klarigi, kial <span class="subjekto">mi</span> 
-            <span class="predikato">preferas kombini</span> elementoj el la baza provizo, kiam tio eblas por 
+            Al tiu historio <span class="subjekto">mi</span> <span class="predikato">devas</span> <span class="antaŭ-objekto">aldoni</span> tri faktoj por klarigi, kial <span class="subjekto">mi</span> 
+            <span class="predikato">preferas</span> <span class="antaŭ-objekto">kombini</span> elementoj el la baza provizo, kiam tio eblas por 
             <span class="antaŭ-objekto">esprimi</span> la koncerna ideo, ol <span class="antaŭ-objekto">uzi</span> vortoj transprenitaj el nacilingvo.
         </p>    
     </div>
@@ -837,7 +862,7 @@ body {
             efektive plu <span class="predikato">lernis</span>, ĝis, post multaj jaroj, <span class="subjekto">mi</span> <span class="predikato">ricevis</span> diplomo pri
             ĝi. Mi do rimarkis, ke er-kombinemo ne estas fantazio mia, sed ke 
             ekzistas lingvoj, en kiuj ĝi estas la normala maniero <span class="antaŭ-objekto">riĉigi</span> la 
-            vortaro. <span class="antaŭ-objekto">Ŝokis</span> mia sento pri justeco, ke kiam <span class="subjekto">mi</span>, okcidentano, 
+            vortaro. <span class="predikato">Ŝokis</span> mia sento pri justeco, ke kiam <span class="subjekto">mi</span>, okcidentano, 
             unuafoje en mia vivo <span class="predikato">renkontas</span> en ĉina teksto la vortoj “helikoptero” 
             aŭ “teologio”, ili <span class="subjekto">mi</span> tuj <span class="predikato">komprenas</span>, malgraŭ la plena ĉineco de ilia 
             aspekto, ĉar ili estas formitaj el jam konataj eroj, dum <span class="subjekto">ĉino</span> <span class="antaŭ-objekto">lerninta</span> 
@@ -873,19 +898,19 @@ body {
     <div class="eo-123" lang="eo-123">
         <p>
             Dua grava faktoro en mia starpunkto estas, ke mi fariĝis tradukisto 
-            en UN. Nu, <span class="subjekto">profesia tradukisto</span> ne <span class="predikato">rajtas fabriki</span> lingvo laŭplaĉe. Lia 
+            en UN. Nu, <span class="subjekto">profesia tradukisto</span> ne <span class="predikato">rajtas</span> <span class="antaŭ-objekto">fabriki</span> lingvo laŭplaĉe. Lia 
             tasko estas transigi <span class="granda-ŝanĝo">al en</span> sistemo, kiu estas, kio ĝi estas – kun la 
             propraj mankoj kaj limigoj – pensoj esprimitaj en alia sistemo. En UN,
             ni tradukis ĉefe el la angla. En tiu lingvo ekzistas grandega kvanto da
             vortoj, <span class="subjekto">kiuj</span> ne <span class="predikato">havas</span> samsencaĵo en la franca. Ĉiufoje, kiam 
             <span class="subjekto">tradukisto</span> <span class="predikato">renkontas</span> vortoj kiel <i>to fix</i>, <i>pattern</i> aŭ <i>issue</i>,
-            <span class="subjekto">li</span> <span class="predikato">devas elpensi</span> taŭgaj manieroj <span class="antaŭ-objekto">esprimi</span> la ideo laŭ la koncerna 
+            <span class="subjekto">li</span> <span class="predikato">devas</span> <span class="antaŭ-objekto">elpensi</span> taŭgaj manieroj <span class="antaŭ-objekto">esprimi</span> la ideo laŭ la koncerna 
             frazo, ĉar <span class="subjekto">li</span> ne <span class="predikato">disponas</span> jam-pretaj francigoj, ĉiatekste uzeblaj, 
             same kiel ne ekzistas jam-preta francigo de vortoj kiel <i>trafa</i>, <i>taŭga</i> aŭ <i>amikumi</i>.
-            Alivorte, tradukisto, se <span class="subjekto">li</span> <span class="predikato">volas konservi</span> sia posteno, <span class="pedikato">devas akcepti</span>
+            Alivorte, tradukisto, se <span class="subjekto">li</span> <span class="predikato">volas</span> <span class="antaŭ-objekto">konservi</span> sia posteno, <span class="pedikato">devas akcepti</span>
             la principo “<span class="subjekto">mi</span> <span class="predikato">adaptu</span> mi al la lingvo, ne la lingvo al mi”. En UN 
             <span class="subjekto">mi</span> <span class="predikato">travivis</span> rilate la franca io simila al tio, kio <span class="subjekto">mi</span> <span class="predikato">sentis</span> kiel 
-            12-jarulo rilate al esperanto: la sistemo <span class="subjekto">mi</span> ne <span class="predikato">rajtas ŝanĝi</span>, <span class="subjekto">mi</span> <span class="predikato">trejnu</span>
+            12-jarulo rilate al esperanto: la sistemo <span class="subjekto">mi</span> ne <span class="predikato">rajtas</span> <span class="antaŭ-objekto">ŝanĝi</span>, <span class="subjekto">mi</span> <span class="predikato">trejnu</span>
             mi <span class="antaŭ-objekto">trovi</span> la solvoj al la esprimproblemoj kadre de la sistemo. Nur <span class="subjekto">tia
             disciplino</span>, miaopinie, <span class="predikato">ebligas</span> plene <span class="predikato">malkovri</span> la riĉaĵoj, kiuj <span class="subjekto">ĉiu 
             lingvo</span> latente <span class="predikato">portas</span> en si.
@@ -926,7 +951,7 @@ body {
             <span class="predikato">elvokas</span> la kuracado de malsanulo, dum la homoj, kiuj venas al mi, ne 
             estas speciale malsanaj. Mia agado konsistas el tio, ke <span class="subjekto">mi</span> <span class="predikato">helpas</span> (aŭ 
             provas helpi) ili fariĝi pli feliĉaj. Esperanto ebligas esprimi 
-            unuvorte, kio <span class="subjekto">mi</span> franclingve <span class="predikato">povas klarigi</span> nur per longa frazoĉeno.
+            unuvorte, kio <span class="subjekto">mi</span> franclingve <span class="predikato">povas</span> <span class="antaŭ-objekto">klarigi</span> nur per longa frazoĉeno.
         </p>
     </div>
     <div class="eo" lang="eo">
@@ -985,7 +1010,7 @@ body {
             realo. Kaj vero efikas sanige. Mi do scias, pro sperto ĉiutaga, ke plej 
             simplaj lingvaj rimedoj ebligas komuniki je ege alta grado de 
             komplekseco. Tiu miraklo <span class="subjekto">ni</span> <span class="predikato">ŝuldas</span> al la senfinaj ebloj de kombinado. 
-            <span class="subjekto">La sep notoj de la gamo</span> <span class="predikato">ebligas verki</span> mirindaj simfonioj, kaj <span class="subjekto">la 
+            <span class="subjekto">La sep notoj de la gamo</span> <span class="predikato">ebligas</span> <span class="antaŭ-objekto">verki</span> mirindaj simfonioj, kaj <span class="subjekto">la 
             dudekkelkaj literoj de nia aboco</span> <span class="predikato">komunikas</span> same profundaj pensoj, kiel
             komplika, plurmilsigna sistemo de hieroglifoj.
         </p>
@@ -1031,8 +1056,8 @@ body {
             En ĉi tiu verko <span class="subjekto">mi</span> plurfoje <span class="predikato">priparolos</span> francaj kutimoj, la franca 
             pens- kaj edukmaniero, la franca influo al esperanto. Plej ofte 
             kritike. Certe tio estas kampo, en kiu mi ne povas objektivi, kaj mi 
-            esperas, ke <span class="subjekto">miaj francaj legantoj</span> <span class="predikato">komprenos</span> mia partieco kaj <span class="predikato">sukcesos 
-            defendi</span> si kontraŭ miaj asertoj, kiuj riskas esti troigitaj.
+            esperas, ke <span class="subjekto">miaj francaj legantoj</span> <span class="predikato">komprenos</span> mia partieco kaj <span class="predikato">sukcesos</span> 
+            <span class="antaŭ-objekto">defendi</span> si kontraŭ miaj asertoj, kiuj riskas esti troigitaj.
         </p>
     </div>
     <div class="eo" lang="eo">
@@ -1129,8 +1154,8 @@ body {
     <div class="eo-123" lang="eo-123">
         <p>
             Ĉu <span class="subjekto">mi</span> <span class="predikato">tedis</span> vi, parolante pri mia persona historio? <span class="subjekto">Mi</span> <span class="predikato">petas</span> via 
-            amika pardono. Precize ĉar mi kredas, ke <span class="subjekto">vero</span> multe <span class="predikato">helpas solvi</span> 
-            problemoj, <span class="subjekto">mi</span> nepre <span class="predikato">devis rakonti</span> la vero pri mi. Nun vi scios, kie 
+            amika pardono. Precize ĉar mi kredas, ke <span class="subjekto">vero</span> multe <span class="predikato">helpas</span> <span class="antaŭ-objekto">solvi</span> 
+            problemoj, <span class="subjekto">mi</span> nepre <span class="predikato">devis</span> <span class="antaŭ-objekto">rakonti</span> la vero pri mi. Nun vi scios, kie 
             fontas mia eventuala partieco. Kaj sekve via juĝo estos pli libera.
         </p>
     </div>
@@ -1176,7 +1201,7 @@ body {
         <p>
             Por UN kaj por Monda Organizo pri Sano mi laboris sur la kvin 
             kontinentoj (aŭ pli ĝuste mondopartoj, ĉar mi laboris en Guam, en 
-            Nov-Zelando, en Japanio, <span class="granda-ŝanĝo">kaj <span class="antaŭ-objekto">nomi</span> ili</span> kontinentaj estus ne rigore). 
+            Nov-Zelando, en Japanio, kiuj <span class="antaŭ-objekto">nomi</span> kontinentaj estus ne rigore). 
             Preskaŭ ĉie <span class="subjekto">mi</span> <span class="predikato">kontaktis kaj renkontis</span> esperantistoj. Al la grandega 
             bonŝanco tiel povi vojaĝi kaj labori en lokoj al mi fremdaj aldoniĝas 
             plia: mi ofte estas invitata al esperanto-aranĝoj, ĉu por <span class="antaŭ-objekto">gvidi</span> 
@@ -1261,7 +1286,7 @@ body {
 <div class="traduko-paro">
     <div class="eo-123" lang="eo-123">
         <p>
-            En ĝi kuŝas mia normo. <span class="subjekto">Mi</span> <span class="predikato">rifuzas serĉi</span> normo ĉe aŭtoritatoj, ĉar <span class="subjekto">mi</span>
+            En ĝi kuŝas mia normo. <span class="subjekto">Mi</span> <span class="predikato">rifuzas</span> <span class="antaŭ-objekto">serĉi</span> normo ĉe aŭtoritatoj, ĉar <span class="subjekto">mi</span>
             <span class="predikato">kredas</span> esperanto esence demokratia. <span class="subjekto">Zamenhof</span> ja <span class="predikato">rezignis</span> posedrajto 
             super la lingvo, <span class="subjekto granda-ŝanĝo">hi</span> al ĝi ne <span class="predikato">donis</span> nomo, <span class="granda-ŝanĝo">hi</span> rifuzis, ke <span class="subjekto">oni</span> <span class="predikato">nomu</span> <span class="granda-ŝanĝo">hi</span>
             kreinto de la lingvo, sed <span class="predikato">akceptis</span> nur la titolo “iniciatinto”; krome, 
@@ -1313,7 +1338,7 @@ body {
         <p>
             Tiu laborado de amasoj okazis, kaj <span class="subjekto">ni</span> nun <span class="predikato">disponas</span> lingvo, antaŭ 
             kiu, miaopinie, la plej konvena <span class="granda-ŝanĝo">si-teno</span> estas <span class="antaŭ-objekto">respekti</span> ĝi. La opinioj 
-            de Zamenhof estas estimindaj kaj multo <span class="subjekto">ni</span> <span class="predikato">povas ĉerpi</span> ĉe <span class="granda-ŝanĝo">hi</span>, sed <span class="granda-ŝanĝo">hi</span> ne 
+            de Zamenhof estas estimindaj kaj multo <span class="subjekto">ni</span> <span class="predikato">povas</span> <span class="antaŭ-objekto">ĉerpi</span> ĉe <span class="granda-ŝanĝo">hi</span>, sed <span class="granda-ŝanĝo">hi</span> ne 
             plu estas aŭtoritato, en tiu senco, ke <span class="subjekto">oni</span> severe <span class="predikato">sekvu</span> <span class="granda-ŝanĝo">hia</span> lingvouzo.
             La lingvo ja ŝanĝiĝis. Ekzemple, <span class="granda-ŝanĝo">hi</span> ĝenerale diris <i>evolucio</i>. 
             Sed <span class="subjekto">la kolektivo</span> tiusence nun preskaŭ ĉiam diras <i>evoluo</i>, 
@@ -1349,7 +1374,7 @@ body {
             malgraŭ la ĝenerale uzata formo – ankaŭ en la lando mem – <i>Israelo</i>).
             La opinioj de Zamenhof, same kiel tiuj de Kalocsay kaj Waringhien, aŭ
             tiuj de Haupenthal kaj de Diego, aŭ tiuj de Rikardo Ŝulco, aŭ ankaŭ 
-            tiuj de Piron aŭ Valano, <span class="subjekto">mi</span> <span class="predikato">povas trovi</span> interesaj, sed, laŭ mia 
+            tiuj de Piron aŭ Valano, <span class="subjekto">mi</span> <span class="predikato">povas</span> <span class="antaŭ-objekto">trovi</span> interesaj, sed, laŭ mia 
             konceptado, <span class="subjekto">ili</span> <span class="predikato">havas</span> neniu povo difini, kiamaniere <span class="subjekto">oni</span> <span class="predikato">esprimu</span> si.
         </p>
     </div>
@@ -1406,10 +1431,10 @@ body {
             pensigi. Homoj ja estas ege imitemaj. <span class="subjekto">Ili</span> <span class="predikato">bezonas</span> modeloj. <span class="subjekto">La 
             kolektivo</span> do <span class="predikato">serĉas</span>, ĉe tiu aŭ tiu ĉi, ekzemploj de bona lingvo. Tial 
             okazas subtila ludo reciprok-influa: <span class="subjekto">la kolektivo</span> <span class="predikato">serĉas</span> modeloj ĉe 
-            verkistoj aŭ belparolantoj, sed <span class="predikato">akceptas imiti</span> nur tiuj, <span class="subjekto">kiuj</span> <span class="predikato">uzas</span> la 
+            verkistoj aŭ belparolantoj, sed <span class="predikato">akceptas</span> <span class="antaŭ-objekto">imiti</span> nur tiuj, <span class="subjekto">kiuj</span> <span class="predikato">uzas</span> la 
             lingvo konforme al ĝia sento pri ĝi. Por esti akceptitaj, <span class="subjekto">aŭtoroj kaj 
             paroladistoj</span> do <span class="predikato">devas</span> mem senti, kia lingvo la kolektivo preferas, kaj
-            <span class="predikato">kapabli uzi</span> ĝi. Se <span class="subjekto">ili</span> ne <span class="predikato">respektas</span> la lingvosento de la kolektivo, 
+            <span class="antaŭ-objekto">kapabli</span> <span class="antaŭ-objekto">uzi</span> ĝi. Se <span class="subjekto">ili</span> ne <span class="predikato">respektas</span> la lingvosento de la kolektivo, 
             ili restas surborde. <span class="subjekto">Ili</span> ne <span class="predikato">trovas</span> loko en la fluo de la ĝenerala 
             evoluo. <span class="subjekto">Malmultaj verkistoj</span> <span class="predikato">komprenis</span> tio, bedaŭrinde. <span class="subjekto">La plimulto</span> <span class="predikato">uzas</span>
             lingvo, kiu ne respondas al la deziroj de la lingvanaro. Rezulte, ties
@@ -1726,8 +1751,8 @@ body {
             por ĉiu el tiuj spontanaj formaĵoj, kaj <span class="predikato">verkus</span> el ili vortaro de parola
             esperanto, <span class="subjekto">ni</span> <span class="predikato">atingus</span> nivelo de riĉeco, kiu kompareblus kun la plej 
             dikaj vortaroj nacilingvaj. <span class="subjekto">La memdifinitaj literaturfakuloj</span>, <span class="subjekto">kiuj</span> 
-            <span class="predikato">malestimas</span> nia vortprovizo, <span class="predikato">havas</span> antaŭjuĝo. <span class="subjekto">Postjuĝo</span> nur <span class="predikato">povas 
-            agnoskigi</span> la krestimula naturo de la lingvo kaj <span class="antaŭ-objekto">veki</span> miro pri ĝia 
+            <span class="predikato">malestimas</span> nia vortprovizo, <span class="predikato">havas</span> antaŭjuĝo. <span class="subjekto">Postjuĝo</span> nur <span class="predikato">povas</span> 
+            <span class="antaŭ-objekto">agnoskigi</span> la krestimula naturo de la lingvo kaj <span class="antaŭ-objekto">veki</span> miro pri ĝia 
             tuja kompreneblo interkultura.
         </p>
     </div>
@@ -1823,8 +1848,8 @@ body {
     <div class="eo-123" lang="eo-123">
         <p>
             Eble nun utilus <span class="antaŭ-objekto">enkonduki</span> la koncepto pri spirito de lingvo. 
-            Probleme estas, ke <span class="antaŭ-objekto">difini</span> ĝi montriĝas neeble. Temas ja pri io, <span class="subjekto">kio</span> 
-            <span class="predikato granda-ŝanĝo">bezonas</span> aliri per la dekstra cerba duonsfero. Ne, ne, ne forkuru, kara 
+            Probleme estas, ke <span class="antaŭ-objekto">difini</span> ĝi montriĝas neeble. Temas ja pri io, <span class="maloftaĵo">kio
+            necesas aliri</span> per la dekstra cerba duonsfero. Ne, ne, ne forkuru, kara 
             leganto! Ne timu! Estas pli simple, ol la vortoj kredigas. Mi tuj 
             klarigos.
         </p>
@@ -2089,7 +2114,7 @@ body {
         <p>
             Se mi diras <i><span class="subjekto">li</span> <span class="predikato">trovis</span> trafa vortigo por <span class="antaŭ-objekto">elturni</span> si</i>, <span class="subjekto">mi</span> <span class="predikato">uzas</span> frazo, 
             kiu <span class="subjekto">la plimulto</span> <span class="predikato">sentas</span> pli tipe esperanta, ol <i><span class="subjekto">li</span> <span class="predikato">elektis</span> vortoj, kiuj estis efikaj, 
-            por ke <span class="subjekto">li</span> <span class="predikato">povu savi</span> si el la ĝena situacio</i>. 
+            por ke <span class="subjekto">li</span> <span class="predikato">povu</span> <span class="antaŭ-objekto">savi</span> si el la ĝena situacio</i>. 
             Simile, <i>tiuepoke li vigle sportis</i> impresas pli esperante 
             ol <i>en tiu epoko <span class="subjekto">li</span> <span class="predikato">praktikis</span> sporto kun vigleco</i>. 
             Fakte, ankaŭ la esprimo, kiu <span class="subjekto">mi</span> ĵus spontane <span class="predikato">uzis</span>, <i>impresas pli esperante</i>, 
@@ -2407,7 +2432,7 @@ body {
             sendubigi. Alia karakterizo ĝia estas, ke ĝi ne facile adjektivigas. Dum
             <span class="subjekto">la angla</span> <span class="predikato">donas</span> adjektiva funkcio al substantivo per simpla antaŭmeto,
             kaj esperanto per <i>-a</i>, la franca estas senrimeda tiurilate: <span class="subjekto">ĝi</span> 
-            <span class="predikato">devas uzi</span> substantivoj. Kelkfoje <span class="subjekto">ĝi</span> <span class="predikato">sukcesas</span>, en tiaj esprimoj, <span class="antaŭ-objekto">uzi</span> 
+            <span class="predikato">devas</span> <span class="antaŭ-objekto">uzi</span> substantivoj. Kelkfoje <span class="subjekto">ĝi</span> <span class="predikato">sukcesas</span>, en tiaj esprimoj, <span class="antaŭ-objekto">uzi</span> 
             adjektivo, sed ofte <span class="subjekto">tiu</span> <span class="predikato">havas</span> alia radiko ol la samsenca substantivo,
             kaj enmeto de prepozicieca prefikso estas postulata: <i>flavfebra vakcino</i> 
             estas, en la franca, <i>vaccin antiamaril</i>, en kiu <span class="subjekto">la prefikso <i>anti</i></span>
@@ -2441,7 +2466,7 @@ body {
             (Se temus pri vakcino produktata en Japanio kontraŭ ĉiuj encefalitoj, 
             oni dirus <i>japana encefalit-vakcino</i>).
             Estas interese vidi, ke <span class="subjekto">esperanto</span> <span class="predikato">uzas</span> la tri vortoj en la sama ordo, 
-            kiel la angla, kaj ke, samkiel tiulingve, <span class="subjekto">ĝi</span> ne <span class="predikato">bezonas enŝovi</span>
+            kiel la angla, kaj ke, samkiel tiulingve, <span class="subjekto">ĝi</span> ne <span class="predikato">bezonas</span> <span class="antaŭ-objekto">enŝovi</span>
             prepozicio. Sed ĝi sukcesas <span class="antaŭ-objekto">eviti</span> la malprecizeco karakteriza pri la 
             ŝekspira lingvo. <span class="subjekto">Ĝi</span> ne <span class="predikato">klarigas</span> ĉio kiel la franca: <span class="subjekto">ĝi</span> <span class="predikato">fidas</span> la 
             intelekto de la leganto aŭ aŭdanto: se oni parolas pri malsano kaj 
@@ -2701,9 +2726,9 @@ body {
 <div class="traduko-paro">
     <div class="eo-123" lang="eo-123">
         <p>
-            Nur ĉar <span class="subjekto">la popoloj</span> ne <span class="predikato">kuraĝas fronti</span> la vero, ili ne rimarkas, ke 
+            Nur ĉar <span class="subjekto">la popoloj</span> ne <span class="predikato">kuraĝas</span> <span class="antaŭ-objekto">fronti</span> la vero, ili ne rimarkas, ke 
             <span class="antaŭ-objekto">obei</span> tiaj absurdaĵoj ĉe internacia komunikado estas sklavi antaŭ 
-            mastro, kies piedo <span class="subjekto">oni</span> <span class="predikato">iras leki</span>, se <span class="subjekto">li</span> <span class="predikato">ordonas</span> tio. <span class="subjekto">Ke mi prenis
+            mastro, kies piedo <span class="subjekto">oni</span> <span class="predikato">iras</span> <span class="antaŭ-objekto">leki</span>, se <span class="subjekto">li</span> <span class="predikato">ordonas</span> tio. <span class="subjekto">Ke mi prenis
             ekzemplo el la angla,</span> <span class="predikato">havas</span> neniu speciala signifo. Kiam la franca 
             estis internacia komunikilo, la situacio perfekte similis, kaj ĝi 
             similus, kia ajn la etna lingvo interpopole uzata.
@@ -2812,7 +2837,7 @@ body {
             ekekzistis. Kiam <span class="subjekto">la simieca patrino</span> <span class="predikato">rigardis</span> tiu novnaskito, ŝi certe 
             ne fieris: ĝi ja estis videble fuŝo. Mankis al ĝi la harprotekto sur la 
             tuta korpo, kaj ĝiaj aliaj mankoj konfirmiĝis pli kaj pli, laŭgrade, 
-            kiel la tempo pasis. <span class="subjekto">Ĝi</span> <span class="predikato">kapablis fari</span> nenio, kio <span class="subjekto">la aliaj bestoj</span> <span class="predikato">faras</span>
+            kiel la tempo pasis. <span class="subjekto">Ĝi</span> <span class="predikato">kapablis</span> <span class="antaŭ-objekto">fari</span> nenio, kio <span class="subjekto">la aliaj bestoj</span> <span class="predikato">faras</span>
             ĝiaaĝe. Ke tiu strangaĵo plu vivis, estas miraklo. Eble <span class="subjekto">la 
             kvazaŭ-simiino</span> <span class="predikato">amis</span> ĝi kun escepta intenso: <span class="subjekto">malfortuloj</span> <span class="predikato">kortuŝas</span> koro 
             patrina.
@@ -2942,7 +2967,7 @@ body {
             lingvo. Volapük, Ido, Occidental, Latino sine flexione, Interlingua, 
             Neo, ktp estas la kuzoj, kiuj iom sukcesis. Kiam la tempo maturiĝis por 
             mutacio, ŝajnas, ke Naturo naskas fekunde por certigi, ke vivos la plej 
-            altnivela. Nur <span class="subjekto">rivaleco kaj konkuro</span> praktik-terene ja <span class="predikato">povas havigi</span> al la
+            altnivela. Nur <span class="subjekto">rivaleco kaj konkuro</span> praktik-terene ja <span class="predikato">povas</span> <span class="antaŭ-objekto">havigi</span> al la
             planedo produkto kun supera kvalito.
         </p>
     </div>
@@ -2984,7 +3009,7 @@ body {
             libereco ol Schleyer: <span class="granda-ŝanĝo subjekto">hi</span> <span class="predikato">respektas</span> <span class="granda-ŝanĝo">li</span>. Demokratia: ne <span class="subjekto">la aŭtoro 
             aŭ iu komitato</span> efektive <span class="predikato">prizorgas</span> la evoluo, aŭ decidas pri dubaj 
             punktoj, sed anonima uzado, t.e. kolektiva akcepto aŭ malakcepto de 
-            novaj formoj, kiuj <span class="subjekto">iu ajn</span> <span class="predikato">rajtas proponi</span>.
+            novaj formoj, kiuj <span class="subjekto">iu ajn</span> <span class="predikato">rajtas</span> <span class="antaŭ-objekto">proponi</span>.
         </p>
     </div>
     <div class="eo" lang="eo">
@@ -3103,9 +3128,9 @@ body {
 <div class="traduko-paro">
     <div class="eo-123" lang="eo-123">
         <p>
-            Kiel <span class="subjekto">ni</span> <span class="predikato">povas koni</span> tiu natura funkciado? <span class="antaŭ-objekto">Observante</span> la kazoj, 
+            Kiel <span class="subjekto">ni</span> <span class="predikato">povas</span> <span class="antaŭ-objekto">koni</span> tiu natura funkciado? <span class="antaŭ-objekto">Observante</span> la kazoj, 
             kiam lingva esprimiĝo malkonformas kun la socia normo, ekzemple ĉe 
-            infanoj komencantaj paroli, ĉe fremduloj, <span class="subjekto">kiuj</span> <span class="predikato">provas komprenigi</span> si per
+            infanoj komencantaj paroli, ĉe fremduloj, <span class="subjekto">kiuj</span> <span class="predikato">provas</span> <span class="antaŭ-objekto">komprenigi</span> si per
             lingvo neplene mastrata, ĉe homoj parolantaj dum <span class="subjekto">kuracilo aŭ alia drogo</span>
             (inkluzive alkoholaj) portempe <span class="predikato">malfortigas</span> la kontroliloj en la 
             cerbo, ĉe homoj tuŝataj de forta emocio, tiel ke por ili pli gravas 
@@ -3655,7 +3680,7 @@ body {
             homoj, kiuj deziras (aŭ devas) intergente komuniki, rajtas ne esti 
             sportemaj, aŭ <span class="antaŭ-objekto">preferi</span> aliaj kampoj por atleti. Al ili esperanto estas 
             destinita. Tial <span class="subjekto">Zamenhof</span> <span class="predikato">konceptis</span> ĝi tiamaniere, ke komunikado okazu 
-            senstreĉe. (Se <span class="subjekto">vi</span> <span class="predikato">ŝatas streĉi</span> viaj fortoj, <span class="subjekto">terenoj</span> ne <span class="predikato">mankas</span> por 
+            senstreĉe. (Se <span class="subjekto">vi</span> <span class="predikato">ŝatas</span> <span class="antaŭ-objekto">streĉi</span> viaj fortoj, <span class="subjekto">terenoj</span> ne <span class="predikato">mankas</span> por 
             <span class="antaŭ-objekto">trejni</span> vi: <span class="subjekto">lingvoj kiel la rusa, la franca kaj la araba</span> <span class="predikato">dissemis</span> 
             stumblejoj abunde.)
         </p>
@@ -3746,7 +3771,7 @@ body {
         <p>
             Kompreneble, se <span class="subjekto">la granda plimulto el la homoj</span> <span class="predikato">havas</span> problemo mala al la mia, 
             mi volonte konsentos, ke oni rezignu je <i>maldekstra</i> favore al <i>liva</i>
-            aŭ alia taŭga formo. <span class="subjekto">Mi</span> neniel <span class="predikato">volus trudi</span> miaj apartaĵoj. Tamen mi 
+            aŭ alia taŭga formo. <span class="subjekto">Mi</span> neniel <span class="predikato">volus</span> <span class="antaŭ-objekto">trudi</span> miaj apartaĵoj. Tamen mi 
             esperas, ke <span class="subjekto">oni</span> <span class="predikato">respektos</span> la starpunkto de tiuj, kiuj diferencas de la 
             plimulto, kaj ke <span class="subjekto">oni</span> <span class="predikato">memoros</span> la averto de Zamenhof, “kontraŭ forĵetado 
             de malnovaj formoj, antaŭ ol la novaj estos sufiĉe elprovitaj kaj tute <i>definitive</i> kaj <i>sendispute</i> akceptitaj” (vd ĉi-supre, p. 10; ĉi-foje mi substrekis).
@@ -3773,7 +3798,7 @@ body {
             surterene esploras, kiel ĉiu serioza lingvisto faras, baldaŭ 
             evidentiĝas, ke <i>mal-</i> ege oftas en la “reala lingvo”. 
             Mi jam citis <i>malstultiĝo</i> kaj <i>malprotestas</i> en la sekcio 
-            pri la riĉeco de la parola lingvo, sed <span class="subjekto">mi</span> <span class="predikato">povus aldoni</span> centoj da aliaj kazoj.
+            pri la riĉeco de la parola lingvo, sed <span class="subjekto">mi</span> <span class="predikato">povus</span> <span class="antaŭ-objekto">aldoni</span> centoj da aliaj kazoj.
         </p>
     </div>
     <div class="eo" lang="eo">
@@ -4261,7 +4286,7 @@ body {
             supozas, <span class="subjekto">esperanto</span> <span class="predikato">logas</span> homoj, <span class="subjekto">kiuj</span> <span class="predikato">deziras</span> nova, pli egaleca 
             maniero interrilati, estas normale, ke <span class="subjekto">multaj</span> <span class="predikato">havas</span>, fone de la menso, 
             la penso: “Kial unu homo (Zamenhof) diktu al mi, kiel <span class="subjekto">mi</span> <span class="predikato">esprimu</span> mi? 
-            Mi estas lia egalulo. Ankaŭ miaj ideoj samrajtas.” Tia rigardo al la 
+            Mi estas <span class="granda-ŝanĝo">hia</span> egalulo. Ankaŭ miaj ideoj samrajtas.” Tia rigardo al la 
             lingvo konformas al ĝia spirito, aŭ pli ĝuste al ĝia etoso. Tie fontas 
             la reformemo de multaj esperantistoj.
         </p>
@@ -4383,7 +4408,7 @@ body {
             malfeliĉuloj, amataj la malamataj, altaj la malaltuloj” klare sonas en 
             la mesaĝo de la krista surmonta prediko. Iu filozofia ludo kaŝiĝas en la
             <i>mal</i>-vortoj, kiu ege plaĉas al mi. Sed estas vere, ke <span class="subjekto">Kartezio</span> 
-            (francanome Descartes) ege <span class="predikato">malhelpis kompreni</span> tiu aliro al konceptoj, 
+            (francanome Descartes) ege <span class="predikato">malhelpis</span> <span class="antaŭ-objekto">kompreni</span> tiu aliro al konceptoj, 
             rigardataj kiel duvizaĝaj.
         </p>
     </div>
@@ -4496,7 +4521,7 @@ body {
         <p>
             Pro ĝi, verŝajne, okazis la filozofia renverso de Kartezio. Se ni ne 
             plu povas <span class="antaŭ-objekto">fidi</span> la evidento pri la ekstera mondo, kie <span class="antaŭ-objekto">trovi</span> io firma? 
-            Kartezio imagis, ke nur <span class="subjekto">logiko kaj pensado</span> <span class="predikato">povas doni</span> tio: eĉ la scio 
+            Kartezio imagis, ke nur <span class="subjekto">logiko kaj pensado</span> <span class="predikato">povas</span> <span class="antaŭ-objekto">doni</span> tio: eĉ la scio 
             pri la propra ekzisto <span class="subjekto granda-ŝanĝo">hi</span> <span class="predikato">pendigis</span> de pensado: <i>mi pensas, do mi estas</i>.
             Kiel malsame homoj reagas! Mia ekzistosento <span class="subjekto">mi</span> <span class="predikato">perceptas</span> el sufero 
             kaj ĝuo, el konscio pri mankoj kaj pleniĝoj, el mia povo ami kaj admiri 
@@ -4964,15 +4989,15 @@ body {
             <span class="antaŭ-objekto">havi</span> unuvorta, ekzakta traduko en la internacia lingvo. <span class="subjekto">Ni</span> <span class="predikato">konfuzas</span> 
             tiu manko kun malriĉeco. Sed tio ĝi ne estas. La angla estas unu el la
             plej riĉaj lingvoj en la mondo laŭ la nombro da vortoj kaj da nuancoj, 
-            kiuj <span class="subjekto">ili</span> <span class="predikato">ebligas esprimi</span>. Tamen ĝi ne povas <span class="antaŭ-objekto">eldiri</span> per unu vorto 
+            kiuj <span class="subjekto">ili</span> <span class="predikato">ebligas</span> <span class="antaŭ-objekto">esprimi</span>. Tamen ĝi ne povas <span class="antaŭ-objekto">eldiri</span> per unu vorto 
             konceptoj kiel <i>samrasano</i> aŭ <i>samlingvano</i>, 
             mankas al ĝi ordinara vorto por la koncepto <i>volo</i>, 
             kaj por <span class="antaŭ-objekto">traduki</span> la simpla franca adverbo <i>frileusement</i> 
             (kies signifo proksimiĝas al “malvarmtimule”; Zamenhof uzis tiusence <i>frosteme</i> kaj <i>fornosidiste</i>, 
             sed ĉu tiuj esprimoj ankoraŭ kompreneblas?) <span class="subjekto">ĝi</span> <span class="predikato">bezonas</span> longa ĉirkaŭvojo, ekzemple: 
             <i>with the kind of shivering movement typical of people particularly sensitive to cold</i>. 
-            Tia simpla vorto, kia estas nia esperanta <i>meblo</i>, <span class="subjekto">la riĉega angla lingvo</span> <span class="predikato">povas 
-            traduki</span> nur per komplika multsilabaĵo: <i>piece of furniture</i>.
+            Tia simpla vorto, kia estas nia esperanta <i>meblo</i>, <span class="subjekto">la riĉega angla lingvo</span> <span class="predikato">povas</span> 
+            <span class="antaŭ-objekto">traduki</span> nur per komplika multsilabaĵo: <i>piece of furniture</i>.
             Ke multaj esperantaj vortoj ne estas unuvorte tradukeblaj <span class="granda-ŝanĝo">al en</span> la franca
             aŭ la angla, kaj reciproke, tio estas tute natura: <span class="subjekto">ĉiu lingvo</span> 
             <span class="predikato">distranĉas</span> la realo laŭ propraj anguloj, <span class="granda-ŝanĝo">al en</span> tranĉoj kun malsamaj 
@@ -5211,7 +5236,7 @@ body {
         <p>
             Kiu ajn la kaŭzo, <span class="subjekto">multaj</span> <span class="predikato">havas</span> la impreso, ke esperanto estas 
             malsupera al la nacilingvoj kaj ke, sekve, necesus <span class="antaŭ-objekto">altigi</span> ĝi al ties
-            nivelo. Tiucele <span class="subjekto">ili</span> <span class="predikato">rekomendas enkonduki</span> <span class="antaŭ-objekto">al en</span> ĝi vort-por-vortaj 
+            nivelo. Tiucele <span class="subjekto">ili</span> <span class="predikato">rekomendas</span> <span class="antaŭ-objekto">enkonduki</span> <span class="granda-ŝanĝo">al en</span> ĝi vort-por-vortaj 
             tradukoj de ĉiu koncepto, por kiu <span class="subjekto">ilia lingvo</span> <span class="predikato">havas</span> termino. Puraj 
             estas tute certe iliaj intencoj, sed ilia celo estas nerealigebla. 
             <span class="subjekto">Esperanto</span> ja disvastiĝis al ĉiuj partoj de la mondo, kaj <span class="predikato">montras</span> ekster 
@@ -5223,10 +5248,10 @@ body {
             radiko, kaj same pri multegaj aspektoj de la materia, socia, psika kaj 
             alikampa vivo! <span class="subjekto">Franclingva tradukisto</span> ne <span class="predikato">taksas</span> sia lingvo malriĉa, 
             ĉar por multegaj anglaj vortoj <span class="subjekto">ĝi</span> ne <span class="predikato">havas</span> laŭvorta traduko, <span class="subjekto">li</span> nur 
-            <span class="predikato">lernas</span> la arto <span class="antaŭ-objekto">esprimi</span> penso, kaj ne vortoj. Tio <span class="predikato">bonaj esperantistoj</span>
-            instinkte faras nun, plej sukcese. Kiamaniere? <span class="subjekto">Ili</span> <span class="predikato">aplikas</span> du 
+            <span class="predikato">lernas</span> la arto <span class="antaŭ-objekto">esprimi</span> penso, kaj ne vortoj. Tio <span class="subjekto">bonaj esperantistoj</span>
+            instinkte <span class="predikato">faras</span> nun, plej sukcese. Kiamaniere? <span class="subjekto">Ili</span> <span class="predikato">aplikas</span> du 
             principoj: (1) <span class="antaŭ-objekto">distancigi</span> si de la vortaroj; (2) <span class="antaŭ-objekto">demandi</span> si: “kio <span class="subjekto">mi</span>
-            <span class="predikato">volas diri</span>?”
+            <span class="predikato">volas</span> <span class="antaŭ-objekto">diri</span>?”
         </p>
     </div>
     <div class="eo" lang="eo">
@@ -5259,7 +5284,7 @@ body {
             Alivorte, <span class="subjekto">ili</span> <span class="predikato">faras</span> tio, kio <span class="subjekto">vi</span> nature <span class="predikato">faras</span>, kiam, parolante 
             vialingve al vialingvano, <span class="subjekto">vi</span> ĵus <span class="predikato">uzis</span> vorto, kiu <span class="subjekto">li</span> ne <span class="predikato">konas</span>: <span class="subjekto">vi</span> 
             <span class="predikato">klarigas</span> la afero per aliaj vortoj. La granda avantaĝo de esperanto 
-            estas, ke <span class="subjekto">ĝia struktursistemo</span> <span class="predikato">povas ege densigi</span> la klarigo.
+            estas, ke <span class="subjekto">ĝia struktursistemo</span> <span class="predikato">povas</span> ege <span class="antaŭ-objekto">densigi</span> la klarigo.
         </p>
     </div>
     <div class="eo" lang="eo">
@@ -5280,7 +5305,7 @@ body {
             <span class="granda-ŝanĝo">Al en</span> esperanto la franca vorto <i>timide</i> <span class="subjekto">oni</span> <span class="predikato">tradukas</span> per <i>timema</i>. 
             Ne <i>timema</i> mi estis.” Ŝia eraro estis <span class="antaŭ-objekto">kredi</span> la vortaro. 
             Ĉar ŝi tie trovis <i>timide = timema</i>, ŝi ne serĉis <span class="granda-ŝanĝo">al-plue</span>. Fakte, 
-            kio <span class="subjekto">ŝi</span> <span class="predikato">volis diri</span>? <span class="subjekto">La franca koncepto <i>timide</i> (kaj la similaĵoj 
+            kio <span class="subjekto">ŝi</span> <span class="predikato">volis</span> <span class="antaŭ-objekto">diri</span>? <span class="subjekto">La franca koncepto <i>timide</i> (kaj la similaĵoj 
             de multaj eŭropaj lingvoj)</span> <span class="predikato">grupigas</span> serio da reagoj, 
             sentoj, kondutoj, kiuj estas tre diversaj.
         </p>
@@ -5456,7 +5481,7 @@ body {
             kunmeta vortfarado. Se <i>brakseĝo</i> ne estas <i>seĝo</i>, 
             aperas stulte <span class="antaŭ-objekto">nomi</span> ĝi <span class="antaŭ-objekto">uzante</span> la radiko <i>seĝ</i>
             plus iu preciziga elemento. Tio sentiĝas kiel lama rimedo, kiel 
-            konfeso pri malriĉeco, kiu <span class="subjekto">oni</span> iel <span class="predikato">provas kompensi</span>. <span class="subjekto">Tiu aliro al la 
+            konfeso pri malriĉeco, kiu <span class="subjekto">oni</span> iel <span class="predikato">provas</span> <span class="antaŭ-objekto">kompensi</span>. <span class="subjekto">Tiu aliro al la 
             lingvo</span> tute <span class="predikato">kontraŭas</span> la solvo al la dikvortara problemo, kiu <span class="subjekto">Zamenhof</span>
             kortuŝe <span class="predikato">priskribis</span> en sia letero al Borovko: <span class="antaŭ-objekto">esprimi</span> kompleksaj 
             konceptoj per kombino de limigita nombro da eroj.
@@ -6121,7 +6146,7 @@ body {
             Ne tio <span class="subjekto">mi</span> <span class="predikato">diris</span>. Mi plu kredas, ke nia <i>bona lingvo</i> ne devas 
             <span class="antaŭ-objekto">sekvi</span> iu ajn nacia modelo: la ĉina formiĝis responde al la bezonoj de
             la ĉina popolo, same kiel la angla al tiuj de la brita, kaj la bezonoj,
-            kiuj <span class="subjekto">esperanto</span> <span class="predikato">celas kontentigi</span>, estas tute aliaj.
+            kiuj <span class="subjekto">esperanto</span> <span class="predikato">celas</span> <span class="antaŭ-objekto">kontentigi</span>, estas tute aliaj.
         </p>
     </div>
     <div class="eo" lang="eo">
@@ -6141,7 +6166,7 @@ body {
             dekomence kaj plene akorda kun ĝia spirito retroviĝas ankaŭ en alia 
             lingvo, kaj tie montriĝas efika, ni povas pli klare konsciiĝi, el tiu 
             ekstera kazo, ke la koncerna trajto nialingva ne estas manko, aŭ fuŝo, 
-            <span class="granda-ŝanĝo"><span class="subjekto">kiu</span> <span class="predikato">bezonus</span> riparo</span>. Eble eĉ ĝi estas altvalora riĉaĵo, kiu <span class="subjekto">ni</span> <span class="predikato">riskus</span> 
+            <span class="maloftaĵo">kiu necesus ripari</span> . Eble eĉ ĝi estas altvalora riĉaĵo, kiu <span class="subjekto">ni</span> <span class="predikato">riskus</span> 
             neglekti pro troa koncentriĝo sur la modeloj, <span class="subjekto">kiuj</span> <span class="predikato">ĉirkaŭas</span> ni.
         </p>
     </div>
@@ -6503,7 +6528,7 @@ body {
         <p>
             Kiel vi scias, oni kutimas <span class="antaŭ-objekto">nomi</span> <i>skemeca</i> la skolo, kiu preferas 
             <span class="antaŭ-objekto">esprimi</span> la konceptoj surbaze de jam ekzistanta radikaro, 
-            kaj <i>naturalisma</i> tiu, <span class="subjekto">kiu</span> <span class="predikato">preferas ĉerpi</span> la vortoj 
+            kaj <i>naturalisma</i> tiu, <span class="subjekto">kiu</span> <span class="predikato">preferas</span> <span class="antaŭ-objekto">ĉerpi</span> la vortoj 
             el la aliaj lingvoj. Tiuj terminoj <span class="subjekto">mi</span> <span class="subjekto">opinias</span> misgvidaj.
         </p>
     </div>
@@ -6680,7 +6705,7 @@ body {
     <div class="eo-123" lang="eo-123">
         <p>
             Iuj kelkfoje asertas, ke al vortoj, kiel la ĉi-supre prezentitaj, 
-            mankas ia poezia, korvibriga etoso. <span class="predikato">Povas diri</span> tio nur <span class="subjekto">homoj, kiuj ne 
+            mankas ia poezia, korvibriga etoso. <span class="predikato">Povas</span> <span class="antaŭ-objekto">diri</span> tio nur <span class="subjekto">homoj, kiuj ne 
             bone konscias, kio estas la nuna, reala esperanto</span>. Se jes, ili 
             perceptus, ke por la plimulto el ĝiaj uzantoj vorto kiel <i>kompano</i> 
             estas <span class="subjekto">plej frosta fremdaĵo, morta sonĉeno</span> <span class="predikato">vekanta</span> neniu eĥo, multe pli
@@ -7027,7 +7052,7 @@ body {
             dank' al la nulo kaj al la konsekvenca rilato inter
             la pozicio de ĉiu cifero kaj la dekuma tranĉo, al kiu ĝi apartenas. 
             <span class="subjekto">Tiaj trajtoj</span> ege <span class="predikato">faciligas</span> ĉiuj kalkuloj. Provu obligi CMXLVII (947) 
-            per MCDXXXI (1431)! Tio nur <span class="subjekto">matematikistoj</span> <span class="predikato">sukcesis fari</span>. La enkonduko 
+            per MCDXXXI (1431)! Tio nur <span class="subjekto">matematikistoj</span> <span class="predikato">sukcesis</span> <span class="antaŭ-objekto">fari</span>. La enkonduko 
             de la novaj ciferoj ebligis al metiistoj, infanoj, plej simplaj 
             komercistoj kalkuli tute glate. Estis do demokratia progreso. Sed ĝi 
             venkis nur post longa kaj akra rezisto. Eĉ <span class="subjekto">unu ŝtato</span> (Venecio, se mi ne 
@@ -7232,7 +7257,7 @@ body {
     <div class="eo-123" lang="eo-123">
         <p>
             <span class="predikato">Naskis</span> tiu sopiro <span class="subjekto">serio da ŝanĝoj</span>, kies graveco <span class="subjekto">ni</span>, fine de la 
-            dudeka jarcento, <span class="predikato">inklinas forgesi</span>. La mondo pli ŝanĝiĝis inter 1830 kaj 
+            dudeka jarcento, <span class="predikato">inklinas</span> <span class="antaŭ-objekto">forgesi</span>. La mondo pli ŝanĝiĝis inter 1830 kaj 
             1870 ol iam ajn antaŭe. Publika instruado lernigis al ĉiuj legi, kaj 
             gazetoj aperis, <span class="subjekto">kiuj</span> <span class="predikato">igis</span> la mondo mense atingebla por homoj socie 
             tenataj dum jarcentoj ekster ĉia rilato kun ĝia vasta kaj diversa 
@@ -7334,7 +7359,7 @@ body {
             superuloj kaj malsuperuloj estas io neniam spertita, kaj do terura por 
             la parto de la psiko, kiu <span class="subjekto">ĉio nekonata</span> facile <span class="predikato">angorigas</span>. Krome, al 
             kelkaj homoj mankas la fleksebleco necesa por <span class="antaŭ-objekto">adapti</span> si al sistemo 
-            diferenca de tiuj, kiuj <span class="subjekto">ili</span> <span class="predikato">lernis uzi</span>, tiel ke ili povas <span class="antaŭ-objekto">miskompreni</span> 
+            diferenca de tiuj, kiuj <span class="subjekto">ili</span> <span class="predikato">lernis</span> <span class="antaŭ-objekto">uzi</span>, tiel ke ili povas <span class="antaŭ-objekto">miskompreni</span> 
             la tuta nova aranĝo. Tio, miaopinie, okazis al Waringhien.
         </p>
     </div>
@@ -7613,7 +7638,7 @@ body {
             miskompreno kompreno, pri domaĉo domo eleganta, kiel <span class="granda-ŝanĝo">hi</span> povas pensi
             en esperanto? Kiel <span class="granda-ŝanĝo">hi</span> povas senti tiulingve, kaj do interhome rilati? 
             Mi provas esti tolerema, kaj konvinkiĝi, ke, nu, <span class="granda-ŝanĝo">hia</span> menso tre 
-            diferencas de la mia. Sed mia provo tiel rezoni konstante <span class="subjekto">atakiĝas per</span> la 
+            diferencas de la mia. Sed mia provo tiel rezoni konstante <span class="granda-ŝanĝo">atakiĝas per</span> la 
             ideo, ke <span class="subjekto">hi</span> neniam sukcesis vere <span class="antaŭ-objekto">senti</span> la lingvo.
         </p>
     </div>
@@ -7962,7 +7987,7 @@ body {
             ĉi-supre). Kial <span class="subjekto granda-ŝanĝo">hi</span> <span class="predikato">rezignas</span> ĝi <span class="antaŭ-objekto">taksante</span> esperanto malpreciza laŭ 
             tezpruve elektita ekzemplo, se ne ĉar <span class="predikato">postulas</span> tio <span class="subjekto"><span class="granda-ŝanĝo">hia</span> antaŭe alprenita
             <span class="granda-ŝanĝo">si-teno</span>, alivorte antaŭjuĝo</span>? <span class="granda-ŝanĝo">Hi</span> ne profundiĝis sufiĉe <span class="granda-ŝanĝo">al en</span> la lingvo por
-            plene <span class="granda-ŝanĝo">senti</span> ĝi kaj <span class="granda-ŝanĝo">malkovri</span> ĝia riĉo. <span class="subjekto">Hi</span> <span class="predikato">aliras</span> ĝi el juĝista kaj 
+            plene <span class="antaŭ-objekto">senti</span> ĝi kaj <span class="antaŭ-objekto">malkovri</span> ĝia riĉo. <span class="subjekto">Hi</span> <span class="predikato">aliras</span> ĝi el juĝista kaj 
             supereca pozicio. Mankas la du kondiĉoj, kiuj ebligas <span class="antaŭ-objekto">koni</span> io vivanta:
             sento pri sia nescio, kaj respekto. <span class="subjekto">La mutacia aspekto de esperanto</span> ne 
             <span class="predikato">tuŝis</span> <span class="granda-ŝanĝo">hi</span>.
@@ -8793,7 +8818,7 @@ body {
             nefavoritaj, aŭ, kvankam iom malpli, por rusoj (el la ses cititaj 
             vortoj, nur <span class="subjekto"><i>pediatro</i> kaj <i>aŭtoktono</i></span> <span class="predikato">havas</span> similforma 
             traduko en la ĝeneralrusa vortaro de Oĵegov) – <span class="subjekto">ĉiu tiutipa vorto</span> <span class="predikato">baras</span> 
-            la vojo; ĝi estas mistero, <span class="subjekto">kiu</span> <span class="predikato granda-ŝanĝo">bezonas</span> solvi foliume. <span class="subjekto">Kiotaro Deguĉi</span> <span class="predikato">provis fari</span> tio
+            la vojo; ĝi estas mistero, <span class="maloftaĵo">kiu necesas solvi</span> foliume. <span class="subjekto">Kiotaro Deguĉi</span> <span class="predikato">provis</span> <span class="antaŭ-objekto">fari</span> tio
             dum la koncerna prelegaro, sed <span class="granda-ŝanĝo">hi</span> ne sukcesis <span class="antaŭ-objekto">sekvi</span> la 
             aperritmo de la nekonataj radikoj: la ISU-instruoj estis por <span class="granda-ŝanĝo">hi</span> 
             fermitaj. Por de Diego, tiel ne estus. Kaj tamen, por <span class="antaŭ-objekto">atingi</span> tiu 
@@ -8878,7 +8903,7 @@ body {
         <p class="dauxrigo">Kontraste al tio, <span class="granda-ŝanĝo subjekto">hi</span> <span class="predikato">taksis venkonta</span> tia lingvo, kiu</p>
         <blockquote>
             <p>
-                <span class="subjekto">la tuta mondo</span> post kelke da monatoj <span class="predikato">povus bonege posedi</span> jam per unu fojo, 
+                <span class="subjekto">la tuta mondo</span> post kelke da monatoj <span class="predikato">povus</span> bonege <span class="antaŭ-objekto">posedi</span> jam per unu fojo, 
                 <i>ĉiuj</i> sferoj de la homa socio, ne sole la inteligentaj kaj riĉaj, 
                 sed eĉ la plej malriĉaj kaj senkleraj vilaĝanoj. 
                 (<i>Samverke</i>, p. 300; kursivigo zamenhofa en ambaŭ citaĵoj. 
@@ -9571,7 +9596,7 @@ body {
             <span class="subjekto">Ili</span> <span class="predikato">komunikis</span> al la amasoj, aŭ al la parto, kiu interesiĝas pri 
             literaturo, sia nefido kaj malestimo al esperanto. Siaj antaŭjuĝoj.
             Ne tiel la priparolata verkisto. Lia influo estos rivela: li malkaŝos 
-            al la esperantistaro, ke <span class="subjekto">ĝi</span> <span class="predikato">posedas</span> trezoro, kiu <span class="subjekto granda-ŝanĝo">oni</span> ne <span class="predikato">eblas elĉerpi</span>, ĉar
+            al la esperantistaro, ke <span class="subjekto">ĝi</span> <span class="predikato">posedas</span> trezoro, <span class="maloftaĵo">kiu ne eblas elĉerpi</span>, ĉar
             kombineblo estas senfina, kaj la kombineblaj eroj en la ordinara lingvo
             sufiĉe abundas por respondi al ĉiuj bezonoj.
         </p>
@@ -9617,8 +9642,8 @@ body {
         <p>Simile <span class="predikato">tuŝis</span> mi <span class="subjekto">la versoj de Kurzens</span>:</p>
 
         <blockquote>
-        <p><i>Ankoraŭ <span class="subjekto">vera tago</span> <span class="predikato">devas fajri</span>,<br>
-        Ankoraŭ <span class="subjekto">vera nokto</span> <span class="predikato">devas nigri</span>,<br>
+        <p><i>Ankoraŭ <span class="subjekto">vera tago</span> <span class="predikato">devas</span> <span class="antaŭ-objekto">fajri</span>,<br>
+        Ankoraŭ <span class="subjekto">vera nokto</span> <span class="predikato">devas</span> <span class="antaŭ-objekto">nigri</span>,<br>
         Ne povas ja de grizo ĉio pleni.</i></p>
         </blockquote>
         
@@ -9687,8 +9712,8 @@ body {
 <div class="traduko-paro">
     <div class="eo-123" lang="eo-123">
         <p>
-            Pro psikologiaj kaŭzoj, aluditaj en la unua ĉapitro, <span class="granda-ŝanĝo">kies al ĉi tie detaligo</span> 
-            estus tro longe, prilingvaj diskutantoj emas <span class="antaŭ-objekto">atribui</span> al la 
+            Pro psikologiaj kaŭzoj, aluditaj en la unua ĉapitro, kiuj <span class="antaŭ-objekto">detaligi</span>
+            ĉi tie estus tro longe, prilingvaj diskutantoj emas <span class="antaŭ-objekto">atribui</span> al la 
             kunparolanto starpunkto pli ekstrema ol tiu efektive havas: <span class="subjekto">emocio</span> (eĉ
             ne konsciata) <span class="predikato">favoras</span> trosimpligo. Krome, io puŝita ĝis-ekstreme estas
             pli facile komprenebla, kaj atakebla, ol pli nuanca konceptado. Tial, 
@@ -9950,7 +9975,7 @@ body {
             impresi per mia kulturnivelo</i>”). Sed <span class="subjekto">la plimulto</span>, <span class="antaŭ-objekto">trovinte</span> la signifo, 
             <span class="predikato">sentos</span> konsterno kaj miro, ofte miksitaj kun kolereto 
             (“<i><span class="subjekto">Tio</span> <span class="predikato">signifas</span> nenio pli ol <b>malforta</b>! Kial diable <span class="subjekto">tiu aŭtoro</span> 
-            ne <span class="predikato">uzas</span> la normala vorto?</i>”), <span class="granda-ŝanĝo">al en</span> kiu <span class="subjekto">naŭza elreviĝo</span> <span class="predikato">povos enŝovi</span> si
+            ne <span class="predikato">uzas</span> la normala vorto?</i>”), <span class="granda-ŝanĝo">al en</span> kiu <span class="subjekto">naŭza elreviĝo</span> <span class="predikato">povos</span> <span class="antaŭ-objekto">enŝovi</span> si
             (“<i><span class="subjekto">Mi</span> <span class="predikato">lernis</span> lingvo tute taŭga por literaturo, sed jen denove libro verkita 
             en alia dialekto. <span class="subjekto">Oni</span> <span class="predikato">trompas</span> mi!</i>”).
         </p>
@@ -10259,7 +10284,7 @@ body {
 <div class="traduko-paro">
     <div class="eo-123" lang="eo-123">
         <p>
-            Similaj kazoj <span class="subjekto">oni</span> <span class="predikato">povus multigi</span>. <span class="antaŭ-objekto">Legu</span> ekzemple la poemo de 
+            Similaj kazoj <span class="subjekto">oni</span> <span class="predikato">povus</span> <span class="antaŭ-objekto">multigi</span>. <span class="antaŭ-objekto">Legu</span> ekzemple la poemo de 
             Lodewijk Cornelis Deij “Al la juda foririnto”, en <i>Esperanta Antologio</i> 
             (William Auld, red.; Roterdamo: UEA, 1984, p. 375). <span class="subjekto">Tiu plej kortuŝa verko</span> 
             <span class="predikato">uzas</span> nur vortoj el la ĉiutaga lingvo.
@@ -10436,7 +10461,7 @@ body {
 <div class="traduko-paro">
     <div class="eo-123" lang="eo-123">
         <p>
-            Tio <span class="subjekto">mi</span> <span class="predikato">provis fari</span>. Bedaŭrinde, <span class="subjekto">mi</span> <span class="predikato">havas</span> nek la talento de 
+            Tio <span class="subjekto">mi</span> <span class="predikato">provis</span> <span class="antaŭ-objekto">fari</span>. Bedaŭrinde, <span class="subjekto">mi</span> <span class="predikato">havas</span> nek la talento de 
             Kalocsay, nek tiu de la estonta verkisto; sekve, kiel atendeble, al mi 
             ne prosperis. Tamen, mi sentas plej forte, ke mia neatingo ŝuldiĝas al 
             mia manko de talento, ne al la malriĉeco de la ordinara lingvo.
@@ -11491,8 +11516,8 @@ body {
             ankaŭ vi, kara leginto, kontrolu atente, ĉu tiuj <span class="granda-ŝanĝo">si-tenoj</span> aperas en la 
             libro aŭ ĉu ili troviĝas nur en la imago de la recenzintoj. Verŝajne vi 
             konstatos, ke nenie <span class="subjekto">mi</span> <span class="predikato">rekomendas</span> unu formo de Esperanto prefere al iu 
-            alia, nenie mi malkonsilas <span class="antaŭ-objekto">uzi</span> neologismoj, neniu <span class="subjekto">mi</span> <span class="predikato">atakas aŭ volas 
-            ofendi</span>. <span class="subjekto">Mi</span> <span class="predikato">faras</span> kvar aferoj:
+            alia, nenie mi malkonsilas <span class="antaŭ-objekto">uzi</span> neologismoj, neniu <span class="subjekto">mi</span> <span class="predikato">atakas</span> aŭ <span class="predikato">volas</span> 
+            <span class="antaŭ-objekto">ofendi</span>. <span class="subjekto">Mi</span> <span class="predikato">faras</span> kvar aferoj:
         </p>
     </div>
     <div class="eo" lang="eo">
@@ -11664,8 +11689,8 @@ body {
             kritiko kaj atako, inter forta esprimo de negativa sento 
             <i>pri limigita aspekto de ies agado</i>, kaj malica, venenplena insulto al <i>persono</i>,
             kiu <span class="subjekto">oni</span> <span class="predikato">surtretas</span>, <span class="granda-ŝanĝo">si-altige</span>. Kritiko egalas al atako nur por iu, <span class="subjekto">kiu</span> 
-            <span class="predikato">sentas</span> si perfekta. Kiu akceptas, ke fuŝo estas io normale homa, <span class="granda-ŝanĝo">kaj 
-            plene <span class="antaŭ-objekto">eviti</span> ĝi</span> ne eblas, tiu trovas normala, ke aperu kritiko, egale ĉu tiu
+            <span class="predikato">sentas</span> si perfekta. Kiu akceptas, ke fuŝo estas io normale homa, <span class="maloftaĵo">kio 
+            plene eviti</span> ne eblas, tiu trovas normala, ke aperu kritiko, egale ĉu tiu
             estas prava aŭ malprava. Ke <span class="subjekto">Waringhien</span> <span class="predikato">trovis</span> mi malprava, kaj mi <span class="granda-ŝanĝo">hi</span>,
             tio ne gravas: <span class="subjekto">disopinio</span> ne <span class="predikato">rompas</span> amika rilato. Kaj tamen <span class="subjekto">mi</span> 
             <span class="predikato">bedaŭras</span> la tono, kiu <span class="subjekto">mi</span> <span class="predikato">uzis</span> pri <span class="granda-ŝanĝo">hi</span> en la sesa ĉapitro. Kvankam <span class="subjekto">mi</span> 
