@@ -17,6 +17,11 @@ main {
     font-weight: 600;
 }
 
+.subregulo {
+    color: #500902;
+    font-weight: 600;
+}
+
 .ekzemplo {
     color: #a77006;
     border: 1px dotted #ccc;
