@@ -103,3 +103,8 @@ td {
     color: #9a9a9a;
     font-size: 95%
 }
+
+.esperanto-informo {
+    border-left: 3px solid lightgray;
+    padding-left: 10px;
+}
