@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="eo-123">
+  <head>
+    <meta charset="UTF-8" />
+    <title>X - Tajpu enrete</title>
+    <meta name="description" content="Tajpu literoj kun ĉapeloj enrete. Tajpu sx por vidi ŝ (kaj tiel plu).">
+    <meta name="keywords" content="Tajpi, literoj, Esperanto, Esperantido 123, enrete, rete, reta, ĉapeloj, ĉapelitaj literoj">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="/index.css"></link>
+    <link rel="icon" type="image/png" href="/favicons/icon16.png" sizes="16x16">
+    <link rel="icon" type="image/png" href="/favicons/icon17.png" sizes="17x17">
+    <link rel="icon" type="image/png" href="/favicons/icon32.png" sizes="32x32">
+    <link rel="icon" type="image/png" href="/favicons/icon48.png" sizes="48x48">
+    <link rel="icon" type="image/png" href="/favicons/icon57.png" sizes="57x57">
+    <link rel="icon" type="image/png" href="/favicons/icon60.png" sizes="60x60">
+    <link rel="icon" type="image/png" href="/favicons/icon64.png" sizes="64x64">
+    <link rel="icon" type="image/png" href="/favicons/icon72.png" sizes="72x72">
+    <link rel="icon" type="image/png" href="/favicons/icon76.png" sizes="76x76">
+    <link rel="icon" type="image/png" href="/favicons/icon96.png" sizes="96x96">
+  </head>
+  <body>
+    <div class="nav"><a href="/">&#127968; iru al hejme</a></div>
+    <main>
+        <textarea id="fonto" style="width:100%" placeholder="Tajpu io kun 'x', ekzemple 'cxapelo'."></textarea>
+        <textarea id="celo" style="width:100%; height: 50vh" placeholder="Ĉi tie aperos la ĝustaj literoj, ekzemple 'ĉapelo'."></textarea>
+    </main>
+  </body>
+  <script>
+    var fontElemento = document.getElementById("fonto");
+    fontElemento.focus();
+    var celElemento = document.getElementById("celo");
+    fontElemento.onpaste = fontElemento.onkeyup = () => {
+        celElemento.value = fontElemento.value
+        .replaceAll(/cx(?!x)/g, 'ĉ')
+        .replaceAll(/gx(?!x)/g, 'ĝ')
+        .replaceAll(/hx(?!x)/g, 'ĥ')
+        .replaceAll(/jx(?!x)/g, 'ĵ')
+        .replaceAll(/sx(?!x)/g, 'ŝ')
+        .replaceAll(/ux(?!x)/g, 'ŭ')
+        .replaceAll(/(c[xX])x/g, '$1')
+        .replaceAll(/(g[xX])x/g, '$1')
+        .replaceAll(/(h[xX])x/g, '$1')
+        .replaceAll(/(j[xX])x/g, '$1')
+        .replaceAll(/(s[xX])x/g, '$1')
+        .replaceAll(/(u[xX])x/g, '$1')
+        .replaceAll(/C[xX](?![xX])/g, 'Ĉ')
+        .replaceAll(/G[xX](?![xX])/g, 'Ĝ')
+        .replaceAll(/H[xX](?![xX])/g, 'Ĥ')
+        .replaceAll(/J[xX](?![xX])/g, 'Ĵ')
+        .replaceAll(/S[xX](?![xX])/g, 'Ŝ')
+        .replaceAll(/U[xX](?![xX])/g, 'Ŭ')
+        .replaceAll(/(C[xX])[xX]/g, '$1')
+        .replaceAll(/(G[xX])[xX]/g, '$1')
+        .replaceAll(/(H[xX])[xX]/g, '$1')
+        .replaceAll(/(J[xX])[xX]/g, '$1')
+        .replaceAll(/(S[xX])[xX]/g, '$1')
+        .replaceAll(/(U[xX])[xX]/g, '$1');
+        fontElemento.style.height = fontElemento.style.height + 'px';
+        celElemento.style.height = celElemento.style.height + 'px';
+    }
+
+    celElemento.onclick = () => {
+      celElemento.select();
+      celElemento.setSelectionRange(0, 99999);
+      navigator.clipboard.writeText(celElemento.value);
+      alert("Kopiis la teksto.");
+    }
+
+  </script>
+</html>
