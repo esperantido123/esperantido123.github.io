@@ -63,6 +63,8 @@ body {
 <body>
 
 <h1>La bona lingvo</h1>
+<p><i>Traduko de la dua eldono de 'La bona lingvo' de Claude Piron.</i></p>
+<p><i>Tradukita por esplori Esperantido 123.</i></p>
 
 
 
