@@ -1,4 +1,4 @@
-// Ĉi tio kodo helpas konstrui la unu-lingva EPUB-dosiero. (Mi uzis https://convertio.co/nl/html-epub/ por tio.)
+// Ĉi tiu kodo helpas konstrui la unu-lingva EPUB-dosiero. (Mi uzis https://convertio.co/nl/html-epub/ por tio.)
 
 const fs = require('fs');
 const cheerio = require('cheerio');
